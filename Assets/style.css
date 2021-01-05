@@ -62,7 +62,14 @@ main {
   transition: 2s;
 }
 
-.grid-item-1:hover {
+.grid-item-3:hover {
+  background-size:cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item-4:hover {
   background-size:cover;
   background-color: lightcoral;
   opacity: 100%;
