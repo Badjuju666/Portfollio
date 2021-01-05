@@ -87,7 +87,6 @@ main {
   grid-column: span 2;
   grid-row: span 2;
   opacity: 80%;
-  background-image: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/ffvii.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -95,7 +94,6 @@ main {
 .grid-item-1 {
   min-height: 150px;
   opacity: 80%;
-  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/ffvii.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -103,7 +101,6 @@ main {
 .grid-item-2 {
   min-height: 150px;
   opacity: 80%;
-  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/ffvii.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -111,7 +108,6 @@ main {
 .grid-item-3 {
   min-height: 150px;
   opacity: 80%;
-  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/ffvii.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -119,7 +115,6 @@ main {
 .grid-item-4 {
   min-height: 150px;
   opacity: 80%;
-  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/ffvii.jpg");
   background-size:cover;
   background-position: center center;
 }
