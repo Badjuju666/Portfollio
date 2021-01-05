@@ -1,0 +1,196 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+header div ul {
+  list-style-type: none;
+}
+
+header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+header h1 {
+  background-color: rgba(255, 2, 196, 0.5); 
+  color:rgb(255, 255, 255);
+  padding: 10px 30px 10px 30px;
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 20px;
+  
+}
+
+.grid-item-1:hover {
+  background-size:cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item-2:hover {
+  background-size:cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item-3:hover {
+  background-size:cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item-4:hover {
+  background-size:cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item.large:hover {
+  background-size: cover;
+  background-color: lightcoral;
+  opacity: 100%;
+  transition: 2s;
+}
+
+.grid-item.large { 
+  grid-column: span 2;
+  grid-row: span 2;
+  opacity: 80%;
+  background-image: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/rina.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-item-1 {
+  min-height: 150px;
+  opacity: 80%;
+  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/horiseon.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-item-2 {
+  min-height: 150px;
+  opacity: 80%;
+  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/dog.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-item-3 {
+  min-height: 150px;
+  opacity: 80%;
+  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/Run Buddy.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-item-4 {
+  min-height: 150px;
+  opacity: 80%;
+  background: url("/Users/juliangraves/Desktop/Bootcamp/BC_Homework/02-Challenge/Portfollio/Assets/coming soon.jpg");
+  background-size:cover;
+  background-position: center center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+section h2,
+section .section-content {
+  display: flex;
+}
+
+#hero {
+  height: 500px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("../Assets/Lain-promo.jpg");
+    background-size: cover;
+}
+
+.text-block {
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+#portrait {
+  margin-left: 3%;
+  padding: 10px;
+}
+
+.row h1 {
+  padding: 50px;
+  border-right: 6px solid green;
+  height: 50px;
+}
+
+.work h1 {
+  padding: 50px;
+  padding-right: 95px;
+  border-right: 6px solid green;
+  height: 120px;
+  margin-top: 21px;
+}
+
+section {
+  min-width: 85%;
+}
+
+section div {
+  padding-left: 20px;
+}
+
+section h2 {
+  min-width: 12%;
+  padding: 50px;
+  border-right: 6px solid green;
+}
+
+.contact div ul {
+  padding: 40px;
+  font-family: monospace;
+  font-size: 20px;
+  padding-left: 107px;
+}
+
+.contact div ul li {
+  display: inline-block;
+}
+
+.contacts {
+  font-family: monospace;
+}
