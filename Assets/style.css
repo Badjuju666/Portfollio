@@ -48,28 +48,7 @@ main {
   
 }
 
-.grid-item-1:hover {
-  background-size:cover;
-  background-color: lightcoral;
-  opacity: 100%;
-  transition: 2s;
-}
-
-.grid-item-2:hover {
-  background-size:cover;
-  background-color: lightcoral;
-  opacity: 100%;
-  transition: 2s;
-}
-
-.grid-item-3:hover {
-  background-size:cover;
-  background-color: lightcoral;
-  opacity: 100%;
-  transition: 2s;
-}
-
-.grid-item-4:hover {
+.grid-item:hover {
   background-size:cover;
   background-color: lightcoral;
   opacity: 100%;
@@ -87,36 +66,10 @@ main {
   grid-column: span 2;
   grid-row: span 2;
   opacity: 80%;
-  background-position: center;
-  background-size: cover;
 }
 
-.grid-item-1 {
-  min-height: 150px;
+.grid-item {
   opacity: 80%;
-  background-size: cover;
-  background-position: center center;
-}
-
-.grid-item-2 {
-  min-height: 150px;
-  opacity: 80%;
-  background-size: cover;
-  background-position: center center;
-}
-
-.grid-item-3 {
-  min-height: 150px;
-  opacity: 80%;
-  background-size: cover;
-  background-position: center center;
-}
-
-.grid-item-4 {
-  min-height: 150px;
-  opacity: 80%;
-  background-size:cover;
-  background-position: center center;
 }
 
 section {
